@@ -1,2 +1,2 @@
-# python 
-*.lock
+# Python 
+__pycache__/
