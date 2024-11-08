@@ -8,6 +8,8 @@ fastapi = {extras = ["standard"], version = "*"}
 sqlmodel = "*"
 psycopg2-binary = "*"
 pandas = "*"
+ipykernel = "*"
+flake8 = "*"
 
 [dev-packages]
 

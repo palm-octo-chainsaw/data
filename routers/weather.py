@@ -5,6 +5,7 @@ router = APIRouter(
     tags=['Weather'],
 )
 
+
 @router.get('/')
 def weather():
     return {'status': 'success'}

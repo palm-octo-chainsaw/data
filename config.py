@@ -1,12 +1,12 @@
 import os
-import pandas as pd
-from sqlalchemy import URL, create_engine
+import pandas as pd  # noqa: F401
+from sqlalchemy import URL, create_engine  # noqa: F401
 from dotenv import load_dotenv
 
 
 load_dotenv()
 
-connection_string = URL.create(
+DB_CONNECTION_STRING = URL.create(
     drivername='postgresql',
     username='koyeb-adm',
     password=os.getenv('DB_PASSWORD'),
