@@ -1,4 +1,4 @@
-from config import (
+from notebooks.config import (
     pd,
     create_engine,
     DB_CONNECTION_STRING

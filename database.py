@@ -1,7 +1,8 @@
 from typing import Annotated
 from fastapi import Depends
 from sqlmodel import Session, create_engine
-from config import DB_CONNECTION_STRING
+
+from notebooks.config import DB_CONNECTION_STRING
 
 
 CONNECT_ARGS = {'check_same_thread': False}

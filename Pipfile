@@ -10,6 +10,7 @@ psycopg2-binary = "*"
 pandas = "*"
 ipykernel = "*"
 flake8 = "*"
+nbconvert = "*"
 
 [dev-packages]
 
