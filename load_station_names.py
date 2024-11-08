@@ -7,7 +7,7 @@ from notebooks.config import (
 
 COLUMNS_TO_DROP = ['identifiers', 'location', 'timezone', 'inventory', 'name', 'country', 'region']
 TABLE_NAME = 'station_names'
-data = pd.read_json('full.json')
+data = pd.read_json('notebooks/full.json')
 
 
 def normalize_name(data: pd.DataFrame) -> pd.DataFrame:

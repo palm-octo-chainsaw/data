@@ -60,7 +60,7 @@ class Modify:
 
 
 data = Modify(
-    dataframe=pd.read_json('full.json'),
+    dataframe=pd.read_json('notebooks/full.json'),
 )
 
 data.drop_columns(COLUMNS_TO_DROP)

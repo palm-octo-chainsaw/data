@@ -26,7 +26,7 @@ def load_geolocation_data(json: str) -> pd.DataFrame:
     return cleaned_data
 
 
-data = load_geolocation_data('full.json')
+data = load_geolocation_data('notebooks/full.json')
 engine = create_engine(DB_CONNECTION_STRING)
 data.to_sql(TABLE_NAME, engine, if_exists='replace', index=False)
 engine.dispose()
